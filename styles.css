@@ -69,10 +69,7 @@ a:hover{
 
 }
 
-.mountain{
- width: 370px;
-height: 270px; 
-}
+
 
 .middle-container{
   background-color :none;
@@ -193,6 +190,22 @@ height: 270px;
 
 
 
+@media (min-width:400px) and (max-width:600px){
+  .mountain{
+    height: 300px;
+    width: 450px;
+  }
+}
+  @media (min-width: 600px) and (max-width:900px){
+    .mountain{
+      width: 700px;
+    }
+  }
 
-  
+  @media(min-width:900px) and (max-width:1200px){  
+  .mountain{
+ width: 800px;
+height: 300px; 
+}
+  }
     
