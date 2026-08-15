@@ -69,9 +69,12 @@ a:hover{
 
 }
 
-
-
-.middle-container{
+.mountain{
+  height: 300px;
+  width:370px;
+}
+    
+  middle-container{
   background-color :none;
   margin: 100px auto;
 
