@@ -191,21 +191,44 @@ a:hover{
 
 
 @media (min-width:400px) and (max-width:600px){
+.top-container{
+  width: 600px;
+}
+  
   .mountain{
     height: 300px;
     width: 450px;
   }
+
+  .bottom-container{
+    width:600px;
+  }
 }
+  
   @media (min-width: 600px) and (max-width:900px){
+    .top-container{
+      width: 900px;
+    }
+    
     .mountain{
-      width: 700px;
+      width: 820px;
+    }
+
+    .bottom-container{
+      width: 900px;
     }
   }
 
-  @media(min-width:900px) and (max-width:1200px){  
+  @media(min-width:900px) and (max-width:1200px){
+    .top-container{
+      width:120px;}
+    
   .mountain{
- width: 800px;
+ width: 1100px;
 height: 300px; 
 }
+    .bottom-container{
+      width:1200px;
+    }
   }
     
