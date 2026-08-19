@@ -191,47 +191,28 @@ a:hover{
  text-decoration: none;
 }
 
-
-
-@media (min-width:400px) and (max-width:600px){
-.top-container{
-  width: 600px;
-}
   
-  .mountain{
-    height: 300px;
-    width: 400px;
-  }
+  @media (min-width: 600px){
 
-  .bottom-container{
-    width:600px;
-  }
-}
-  
-  @media (min-width: 600px) and (max-width:900px){
-    .top-container{
-      width: 900px;
-    }
-    
     .mountain{
-      width: 800px;
+      width: 580px;
     }
 
+
     .bottom-container{
-      width: 900px;
+      display: flex;
+      justify-content: space-between;
     }
   }
 
-  @media(min-width:900px) and (max-width:1200px){
-    .top-container{
-      width:1200px;}
+  @media(min-width:900px){
     
   .mountain{
- width: 1100px;
-height: 300px; 
+ width: 890px; 
 }
     .bottom-container{
-      width:1200px;
+      display: flex;
+      justify-content: space-between;
     }
   }
     
